@@ -1,0 +1,51 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &_contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    margin-left: auto;
+  }
+
+  &__contact-link {
+    color: var(--text-normal-color);
+    display: flex;
+
+    align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__contact-link:hover {
+    color: var(--text-hover-color);
+  }
+
+  &__contact-link:focus {
+    fill: var(--text-hover-color);
+    color: var(--text-hover-color);
+  }
+}
+
+.envelope-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}

@@ -1,0 +1,55 @@
+/* =============  HEADER  ==================== */
+
+.header-nav-text-style {
+}
+
+.contact-flex-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-flow: row wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.email-flex:hover {
+  fill: var(--text-hover-color);
+}
+
+.about-us-block {
+  padding: 0 15px;
+}
+
+.mb-section {
+  margin-bottom: 91px;
+}
+
+.menu-filer-block {
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.app-items {
+  width: 370px;
+  height: 404px;
+  margin: 0;
+}
+
+.no-padding {
+  padding-top: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+/* ICONS */
+
+.padding-top-2 {
+  padding-top: 2px;
+}
+
+.padding-menu-filter {
+  padding: 6px 22px;
+  display: block;
+}
