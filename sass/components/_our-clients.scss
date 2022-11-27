@@ -19,7 +19,7 @@
 }
 
 .Our-clients__box {
-  width: 170px;
+  width: 210px;
   height: 92px;
   border-radius: 4px;
   border: 1px solid currentColor;
@@ -46,11 +46,23 @@
   fill: currentColor;
 }
 
-/* .our-clients__list {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+@media screen and (min-width: 768px) {
+  .Our-clients__box {
+    width: 226px;
+    height: 92px;
+  }
 }
- */
+
+@media screen and (min-width: 1200px) {
+  .Our-clients__box {
+    width: 170px;
+    height: 92px;
+  }
+  .our-clients__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+}
