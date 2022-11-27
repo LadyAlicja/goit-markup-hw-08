@@ -1,11 +1,11 @@
-@media screen and (max-width: 767px) {
-  .page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+.page-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0;
 
-    border-bottom: 1px solid #ececec;
-
-    &__contact {
+  border-bottom: 1px solid #ececec;
+  @media screen and (max-width: 767px) {
+    .page-header__contact {
       display: none;
     }
   }
