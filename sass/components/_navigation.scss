@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .menu-icon {
     display: none;
   }
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .navigation__link--agencja::after {
     position: absolute;
     content: "";
