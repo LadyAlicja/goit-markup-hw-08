@@ -1,4 +1,109 @@
-.navigation {
+@media (max-width: 767px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navigation__items {
+    display: none;
+  }
+
+  .menu-icon {
+    height: 16px;
+    width: 24px;
+  }
+
+  .menu-icon:hover,
+  .menu-icon:focus {
+    fill: var(--text-hover-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 83px;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+
+    &__items {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+
+    &__link {
+      color: var(--text-headers-color);
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+
+      transition-duration: 250ms;
+      transition-property: color;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link:hover {
+      color: var(--text-hover-color);
+    }
+    &__link:focus {
+      color: var(--text-hover-color);
+    }
+
+    &__link--agencja {
+      position: relative;
+    }
+
+    &__link--agencja::after {
+      position: absolute;
+      content: "";
+      top: 48px;
+      width: 100%;
+      height: 4px;
+      background: #2196f3;
+      border-radius: 2px;
+      left: 0;
+    }
+
+    &__link--portfolio {
+      position: relative;
+    }
+
+    &__link--portfolio::after {
+      position: absolute;
+      content: "";
+      top: 44px;
+      width: 100%;
+      height: 4px;
+      background: #2196f3;
+      border-radius: 2px;
+      left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation__link--agencja::after {
+    position: absolute;
+    content: "";
+    top: 44px;
+    width: 100%;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    left: 0;
+  }
+}
+/* .navigation {
   display: flex;
   gap: 93px;
   margin: 0;
@@ -61,4 +166,4 @@
     border-radius: 2px;
     left: 0;
   }
-}
+} */

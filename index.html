@@ -12,15 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
   </head>
   <body>
+    <!-- mobile menu -->
+
+    <!-- <div class="mobile-menu d-none">
+      <button class="toggle-menu">X</button>
+    </div>
+    <button class="toggle-menu__open">OPEN</button> -->
+    <!-- mobile menu ends -->
+
     <header class="page-header">
       <div class="container page-header__wrapper">
         <nav class="navigation">
           <a href="index.html" class="logo"
             ><span class="logo--secondary-color">Web</span>Studio</a
           >
+          <svg class="menu-icon">
+            <use href="./images/icons.svg#icon-menu-open-icon"></use>
+          </svg>
           <ul class="navigation__items">
             <li>
               <a
@@ -37,7 +49,7 @@
             </li>
           </ul>
         </nav>
-        <div class="page-header_contact">
+        <div class="page-header__contact">
           <a href="mailto:info@devstudio.com" class="page-header__contact-link">
             <svg class="envelope-icon">
               <use href="./images/icons.svg#icon-envelope"></use>
@@ -128,7 +140,7 @@
         </div>
       </section>
 
-      <section class="section no-padding">
+  <!--     <section class="section no-padding">
         <div class="container">
           <h2 class="what-we-do__header no-padding-top">Czym się zajmujemy</h2>
           <ul class="what-we-do__list">
@@ -580,7 +592,8 @@
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

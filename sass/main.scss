@@ -1,6 +1,14 @@
+//zmienne i reset
 @import "./utils/variables.scss";
+
+//mobile style
+@import "./components/_mobile-menu";
+@import "./utils/display-none";
+
+//page style
 @import "./components/_banner";
 @import "./components/_page-header";
+
 @import "./components/_logo";
 @import "./components/_navigation";
 @import "./components/_description";
