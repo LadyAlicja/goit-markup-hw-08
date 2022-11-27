@@ -48,7 +48,6 @@
   }
 }
 @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .header-block {
@@ -73,7 +72,6 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
   (min-resolution: 192dpi) and (min-width: 768px),
   (min-resolution: 2dppx) and (min-width: 768px) {
   .header-block {
@@ -98,7 +96,6 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
   (min-resolution: 192dpi) and (min-width: 1200px),
   (min-resolution: 2dppx) and (min-width: 1200px) {
   .header-block {
