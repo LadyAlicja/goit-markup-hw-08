@@ -11,7 +11,8 @@
 
 .our-clients__list {
   display: flex;
-  justify-content: space-between;
+  flex-flow: wrap;
+  justify-content: center;
   gap: 30px;
   margin: 0;
   padding: 0;
@@ -44,3 +45,12 @@
   height: 60px;
   fill: currentColor;
 }
+
+/* .our-clients__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+ */
