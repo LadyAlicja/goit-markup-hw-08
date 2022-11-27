@@ -1,3 +1,10 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
   background-color: var(--background-block-color);
 
@@ -99,21 +106,16 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer__wrapper {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer__wrapper {
-    flex-flow: row;
+    flex-direction: row;
     align-items: baseline;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .footer__wrapper {
+    flex-direction: row;
+    align-items: baseline;
+  }
 }
