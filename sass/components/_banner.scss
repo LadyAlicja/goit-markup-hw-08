@@ -2,7 +2,7 @@
   padding-top: 118px;
   padding-bottom: 118px;
   background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-    url("/images/main-backgorund-mobile-1x.jpg");
+    url("../images/main-backgorund-mobile-1x.jpg");
   max-width: 767px;
   height: 400px;
   margin: 0 auto;
@@ -52,7 +52,7 @@
   (min-resolution: 2dppx) {
   .header-block {
     background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-      url("/images/main-backgorund-mobile-2x.jpg");
+      url("../images/main-backgorund-mobile-2x.jpg");
   }
 }
 
@@ -61,7 +61,7 @@
     padding-top: 118px;
     padding-bottom: 118px;
     background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-      url("/images/main-backgorund-tablet-1x.jpg");
+      url("../images/main-backgorund-tablet-1x.jpg");
     max-width: 1999px;
     height: 400px;
     margin: 0 auto;
@@ -76,7 +76,7 @@
   (min-resolution: 2dppx) and (min-width: 768px) {
   .header-block {
     background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-      url("/images/main-backgorund-tablet-2x.jpg");
+      url("../images/main-backgorund-tablet-2x.jpg");
   }
 }
 
@@ -100,7 +100,7 @@
   (min-resolution: 2dppx) and (min-width: 1200px) {
   .header-block {
     background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-      url("/images/main-background-2x.jpg");
+      url("../images/main-background-2x.jpg");
     max-width: 1600px;
   }
 }
