@@ -17,6 +17,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--logo-white);
+    margin-bottom: 60px;
   }
 
   &__address {
@@ -52,10 +53,6 @@
     color: var(--text-hover-color);
   }
 
-  &__social-media {
-    margin-left: 70px;
-  }
-
   &__header {
     font-family: Roboto;
     font-weight: 700;
@@ -64,6 +61,11 @@
     line-height: 100%;
     margin-bottom: 20px;
     color: var(--backgound-color);
+    text-align: center;
+  }
+
+  &__social-media {
+    margin-bottom: 60px;
   }
 
   &__social-icon--list {
