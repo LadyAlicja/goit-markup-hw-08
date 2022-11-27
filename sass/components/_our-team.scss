@@ -5,6 +5,37 @@
 .our-team__text {
   color: var(--text-headers-color);
   font-weight: 700;
+  font-size: 28px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.our-team__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__list {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+/* .our-team__background {
+  background-color: var(--button-color);
+}
+
+.our-team__text {
+  color: var(--text-headers-color);
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -19,4 +50,4 @@
   justify-content: space-between;
   padding: 0;
   gap: 30px;
-}
+} */

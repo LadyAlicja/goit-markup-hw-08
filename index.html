@@ -140,7 +140,7 @@
         </div>
       </section>
 
-  <!--     <section class="section no-padding">
+      <section class="section what-we-do no-padding">
         <div class="container">
           <h2 class="what-we-do__header no-padding-top">Czym się zajmujemy</h2>
           <ul class="what-we-do__list">
@@ -179,7 +179,7 @@
         </div>
       </section>
 
-      <section class="section our-team__background">
+       <section class="section our-team__background">
         <div class="container">
           <h2 class="our-team__text">Nasz zespół</h2>
 
@@ -188,7 +188,18 @@
               <img
                 src="images/product-designer.jpg"
                 alt="zdjęcie John Doe, nasz product designer"
-                width="270"
+                srcset="
+                ../images/product-designer-mobile-1x.jpg 450w,
+                ../images/product-designer-mobile-2x.jpg 900w,
+                ../images/product-designer-tablet-1x.jpg 354w,
+                ../images/product-designer-tablet-2x.jpg 708w,
+                ../images/product-designer.jpg 270w,"
+
+                sizes="(max-width: 767px) 450px, (max-width: 1199px) 354px, (min-width: 1200px) 270px"
+                
+                
+                
+                
               />
               <div class="team-card__padding">
                 <h3 class="team-card__names">John Doe</h3>
@@ -233,7 +244,14 @@
               <img
                 src="images/frontend-developer.jpg"
                 alt="zdjecie John Doe, nasz frontend developer"
-                width="270"
+                srcset="
+                ../images/frontend-developer-mobile-1x.jpg 450w,
+                ../images/frontend-developer-mobile-2x.jpg 900w,
+                ../images/frontend-developer-tablet-1x.jpg 354w,
+                ../images/frontend-developer-tablet-2x.jpg 708w,
+                ../images/frontend-developer.jpg 270w,"
+
+                sizes="(max-width: 767px) 450px, (max-width: 1199px) 354px, (min-width: 1200px) 270px"
               />
               <div class="team-card__padding">
                 <h3 class="team-card__names">John Doe</h3>
@@ -278,7 +296,14 @@
               <img
                 src="images/marketing-staff.jpg"
                 alt="zdjecie John Doe, nasz pracownik marketingu"
-                width="270"
+                srcset="
+                ../images/marketing-staff-mobile-1x.jpg 450w,
+                ../images/marketing-staff-mobile-2x.jpg 900w,
+                ../images/marketing-staff-tablet-1x.jpg 354w,
+                ../images/marketing-staff-tablet-2x.jpg 708w,
+                ../images/marketing-staff.jpg 270w,"
+
+                sizes="(max-width: 767px) 450px, (max-width: 1199px) 354px, (min-width: 1200px) 270px"
               />
               <div class="team-card__padding">
                 <h3 class="team-card__names">John Doe</h3>
@@ -323,7 +348,14 @@
               <img
                 src="images/ui-designer.jpg"
                 alt="zdjecie John Doe, nasz ui designer"
-                width="270"
+                srcset="
+                ../images/ui-designer-mobile-1x.jpg 450w,
+                ../images/ui-designer-mobile-2x.jpg 900w,
+                ../images/ui-designer-tablet-1x.jpg 354w,
+                ../images/ui-designer-tablet-2x.jpg 708w,
+                ../images/ui-designer.jpg 270w,"
+
+                sizes="(max-width: 767px) 450px, (max-width: 1199px) 354px, (min-width: 1200px) 270px"
               />
               <div class="team-card__padding">
                 <h3 class="team-card__names">John Doe</h3>
@@ -366,7 +398,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+ <!--     <section class="section">
         <div class="container">
           <h2 class="our-clients__text">Nasi klienci</h2>
           <ul class="our-clients__list">
