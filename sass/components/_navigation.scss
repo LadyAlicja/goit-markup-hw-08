@@ -17,10 +17,28 @@
   .menu-icon:hover,
   .menu-icon:focus {
     fill: var(--text-hover-color);
+    cursor: pointer;
+  }
+
+  .menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
   }
 }
 
 @media (min-width: 768px) {
+  .menu-toggle,
   .menu-icon {
     display: none;
   }
