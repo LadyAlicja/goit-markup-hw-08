@@ -19,7 +19,7 @@
     text-transform: uppercase;
     color: var(--main-board-text);
 
-    width: 365px;
+    max-width: 360px;
     margin: 0 auto;
     margin-bottom: 30px;
   }
@@ -92,19 +92,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    align-items: center;
+  }
+
+  .header-block__text {
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    max-width: 696px;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    (min-resolution: 192dpi) and (min-width: 1200px),
+    (min-resolution: 2dppx) and (min-width: 1200px) {
+    .header-block {
+      background-image: linear-gradient(#2f303a66, #2f303a66 40%),
+        url("../images/main-backgorund-tablet-2x.jpg");
+      max-width: 1600px;
+    }
   }
 }
-
-@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  (min-resolution: 192dpi) and (min-width: 1200px),
-  (min-resolution: 2dppx) and (min-width: 1200px) {
-  .header-block {
-    background-image: linear-gradient(#2f303a66, #2f303a66 40%),
-      url("../images/main-backgorund-tablet-2x.jpg");
-    max-width: 1600px;
-  }
-}
-
 /* .header-block {
   padding-top: 200px;
   padding-bottom: 200px;
